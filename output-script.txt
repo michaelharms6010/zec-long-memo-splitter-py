@@ -1,4 +1,4 @@
-zcash-cli z_sendmany "fromaddresszsdfdsjka "[{\"address\" : \"toaddresszsfdjskalfjasdkl\",\"amount\": 0.00000001, \"memo\":\"546869732069732061206d656d6f0a\"}]"
-zcash-cli z_sendmany "fromaddresszsdfdsjka "[{\"address\" : \"toaddresszsfdjskalfjasdkl\",\"amount\": 0.00000001, \"memo\":\"74657374696e6720686f772077650a\"}]"
-zcash-cli z_sendmany "fromaddresszsdfdsjka "[{\"address\" : \"toaddresszsfdjskalfjasdkl\",\"amount\": 0.00000001, \"memo\":\"63616e2073706c697420757020736f6d6520746578740a\"}]"
-zcash-cli z_sendmany "fromaddresszsdfdsjka "[{\"address\" : \"toaddresszsfdjskalfjasdkl\",\"amount\": 0.00000001, \"memo\":\"616e642073656e6420746865206269626c65\"}]"
+zcash-cli z_sendmany "fromaddresszsdfdsjka" "[{\"address\" : \"toaddresszsfdjskalfjasdkl\",\"amount\": 0.00000001, \"memo\":\"546869732069732061206d656d6f0a\"}]"
+zcash-cli z_sendmany "fromaddresszsdfdsjka" "[{\"address\" : \"toaddresszsfdjskalfjasdkl\",\"amount\": 0.00000001, \"memo\":\"74657374696e6720686f772077650a\"}]"
+zcash-cli z_sendmany "fromaddresszsdfdsjka" "[{\"address\" : \"toaddresszsfdjskalfjasdkl\",\"amount\": 0.00000001, \"memo\":\"63616e2073706c697420757020736f6d6520746578740a\"}]"
+zcash-cli z_sendmany "fromaddresszsdfdsjka" "[{\"address\" : \"toaddresszsfdjskalfjasdkl\",\"amount\": 0.00000001, \"memo\":\"616e642073656e6420746865206269626c65\"}]"
