@@ -1,6 +1,6 @@
 memotext = open("memotext.txt")
 
-output = open("output-script.txt", "w")
+output = open("output-script.bat", "w")
 
 textList = []
 for i in memotext:
@@ -11,7 +11,7 @@ addyTo=textList[1].rstrip("\n")
 
 for i in textList:
     hextext=i.encode("hex")
-    outstring = 'zcash-cli z_sendmany "' + addyFrom + '" "[{\\"address\\" : \\"'+addyTo+ '\\",\\"amount\\": 0.00000001, \\"memo\\":\\"'+hextext+'\\"}]"\n'
+    outstring = 'zcash-cli z_sendmany --fee 0.00 "' + addyFrom + '" "[{\\"address\\" : \\"'+addyTo+ '\\", \\"amount\\": 0.000, \\"memo\\":\\"'+hextext+'\\"}]" 1 0.00\n'
     if textList.index(i) > 1:
         output.write(outstring)
     
