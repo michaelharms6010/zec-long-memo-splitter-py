@@ -1,6 +1,6 @@
 zs1pjl39rdnvknm6aqfdd8z08wynhh2d85tjlh6cxc97rcntdd0ttx9s35x5209jkpg5zjjx0p6e4u
 zs1zxeehvq02nf0javeygdxnj6a78quvvlu7gsgg0e39n4uvp9hpdnyy3l4e494vt5kp4wjgrm7mtr
-This is a memo
-testing how we
-can split up some text
-and send the bible
+Second Test
+Of zero fee memo splitter
+Using Zcashd
+To maybe send the bible?
