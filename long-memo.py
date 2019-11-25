@@ -11,7 +11,7 @@ for i in memotext:
 
 for i in textList:
     hextext=i.encode("hex")
-    outstring = 'zcash-cli z_sendmany "' + addyFrom + ' "[{\\"address\\" : \\"'+addyTo+ '\\",\\"amount\\": 0.00000001, \\"memo\\":\\"'+hextext+'\\"}]"'
+    outstring = 'zcash-cli z_sendmany "' + addyFrom + ' "[{\\"address\\" : \\"'+addyTo+ '\\",\\"amount\\": 0.00000001, \\"memo\\":\\"'+hextext+'\\"}]"\n'
     output.write(outstring)
 
 
