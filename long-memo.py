@@ -4,7 +4,7 @@ output = open("output-script.bat", "w")
 
 textList = []
 for i in memotext:
-    textList.append(i)
+    textList.append(i.rstrip("~"))
 
 addyFrom=textList[0].rstrip("\n")
 addyTo=textList[1].rstrip("\n")
