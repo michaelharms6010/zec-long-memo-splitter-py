@@ -13,6 +13,7 @@ In its current implementation, you must be running zcashd locally.
 * Run long-memo.py
 * Move the output script to the same folder as your zcash-cli installation (if you don't have zcash-cli in your $PATH variable. You probably don't.)
 * Run the script. All the lines of text will be sent in separate memos, at ZERO cost to you. Nice!
+* Note - Using a custom miner fee is a privacy problem AND likely will not be supported by miners if we start using this. It's w/e I'm just on some accelerationist swag here, trying to move the ecosystem forward. I will update this repo when they no longer work
 
 ### Contact
 
