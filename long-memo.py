@@ -11,7 +11,7 @@ addyTo=textList[1].rstrip("\n")
 
 for i in textList:
     hextext=i.encode("hex")
-    outstring = 'zcash-cli z_sendmany "' + addyFrom + '" "[{\\"address\\" : \\"'+addyTo+ '\\", \\"amount\\": 0.000, \\"memo\\":\\"'+hextext+'\\"}]" 1 0.00\n'
+    outstring = 'zcash-cli z_sendmany "' + addyFrom + '" "[{\\"address\\" : \\"'+addyTo+ '\\", \\"amount\\": 0.000, \\"memo\\":\\"'+hextext+'\\"}]" 1 0.00000001\n'
     if textList.index(i) > 1:
         output.write(outstring)
     
